@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: 05_Creative_Model_Motion
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-340.0,"y":0.0},"guid":"c2ea8171-edfa-481e-8678-272662b4913d","$version":"A","$type":"Unity.VisualScripting.Update","$id":"9"},{"chainable":false,"parameterNames":["eulers"],"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":0.0,"y":0.085,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":-20.0,"y":0.0},"guid":"d58fd45c-1f17-4d6a-92b0-af0b4d099ae0","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"db855635-cb60-4237-b857-8f1519ca9f75","$type":"Unity.VisualScripting.ControlConnection"},{"position":{"xMin":-410.0,"yMin":-140.0,"xMax":340.0,"yMax":190.0},"label":"SLOW
+      CINEMATIC REVEAL","comment":"The spawned ship turns slowly above the printed
+      artwork, adding motion and readable depth while keeping mobile cost low.","color":{"r":0.4117647,"g":0.3215686,"b":0.5372549,"a":1.0},"guid":"ff63850d-c23b-4ca3-b844-30f751ce5430","$version":"A","$type":"Unity.VisualScripting.GraphGroup"}],"$version":"A"}}'
+    _objectReferences: []
